@@ -1,0 +1,26 @@
+{
+  "name": "nodejs_shop",
+  "version": "1.0.0",
+  "description": "Practice NodeJS with related technologies: Express.JS, MongoDB, Middleware Authentication and Validation, REST APIs, Web socket, GraphQL and Testing tools",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoangnhxda/NodeJS_Shop.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoangnhxda/NodeJS_Shop/issues"
+  },
+  "homepage": "https://github.com/hoangnhxda/NodeJS_Shop#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
