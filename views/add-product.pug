@@ -1,0 +1,17 @@
+extends layouts/new-layout.pug
+
+block body-header
+    nav.main-header__nav
+        ul.main-header__item-list
+            li.main-header__item
+                a.active(class= path === '/' ? 'active' : '' href='/') Shop
+            li.main-header__item
+                a.path(class= path === '/admin/add-product' ? 'active' : '' href='/admin/add-product') Add Product
+
+block body-main
+    main
+        form.product-form(action='/admin/add-product' method='POST')
+            .form-control
+                label(for='title') Title
+                input#title(type='text' name='title')
+            button.btn(type='submit') Add Product
